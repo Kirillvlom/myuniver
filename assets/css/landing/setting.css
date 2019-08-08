@@ -1,0 +1,120 @@
+/*Цвета*/
+.white{
+	color: #fff;
+}
+.light_blue{
+	color: #007bff;
+}
+.color-white{
+	color: #fff;
+}
+.color-white:hover{
+	color: #fff;
+}
+
+.no-border{
+	border:none;
+}
+.no-padding{
+	padding: 0;
+}
+/*Размеры текста*/
+
+.small{
+	font-size: .8em;
+}
+.average{
+	font-size: 1em;
+}
+.big{
+	font-size: 1.3em;
+}
+
+/*Паддинг*/
+.padding15{
+	padding:15px; 
+}
+.padding1020{
+	padding: 10px 20px; 
+}
+
+.logo-image4040{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*Скролл*/
+::-webkit-scrollbar { width: 5px; height: 3px;}
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}}
+::-webkit-resizer { background-color: #666;}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.dashboard-input{
+	display: block;
+	padding: 10px 20px;
+}
+
+input[type='date'] {
+	-webkit-appearance:menulist;
+}
+.button-green, .button-red-close{
+	display: block;
+	outline: none;
+	border:none;
+	background: #007bff;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	opacity: 0.7;
+	transition: all 0.2s ease;
+}
+
+.button-green{
+	background: #3cad41;
+}
+
+.button-red-close{
+	background: #fff;
+	border:solid 2px #dfdfdf;
+	color:#000;
+}
+.button-green:hover{
+	opacity: 1;
+}
+.button-red-close:hover{
+	opacity: 1;
+	color:#fff;
+	background: #F05F40;
+	border:solid 2px #F05F40;
+	
+}
+
+.vk:hover{
+	position: absolute;
+	top:-450px;
+	transition: top 0.2s ease;
+}
+.circle{
+	display: block;
+	border-radius: 50%;
+}
+.margin-0-10{
+	margin:0 10px;
+}
+.file-bg{
+	width: 100%;
+	height: 60px;
+	background: #2196f3;
+
+}

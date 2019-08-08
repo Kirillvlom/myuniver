@@ -1,0 +1,65 @@
+/*start fonts site*/
+*{
+	font-family: 'Lora', serif;
+	line-height: 1.5;
+	font-size: 1em;
+}
+
+/*end fonts site*/
+
+
+/*start 404 страница кнопка назад*/
+.error-go-back{
+	display: block;
+	color:#fff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background: #7c92c7;
+	transition: background .2s ease;
+}
+.error-go-back:hover{
+	background: #6488e0;
+}
+
+/*start 404 страница*/
+
+::-webkit-input-placeholder {color:#DFDFE3;}
+::-moz-placeholder          {color:#DFDFE3;}/* Firefox 19+ */
+:-moz-placeholder           {color:#DFDFE3;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#DFDFE3;}
+
+::-webkit-scrollbar { width: 5px; height: 3px; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;} }
+::-webkit-resizer { background-color: #666;}
+
+button{
+	cursor: pointer;
+	outline: none;
+}
+.red{
+	background-color: #ff000099;
+	color:#fff;
+}
+.red:hover{
+	background-color: #ff0000cf;
+}
+.pale_pink{
+	background-color: #f06f87;
+	color:#fff;
+}
+.pale_pink:hover{
+	background-color: #ef3e5f;
+}
+.green{
+	background-color: #2ecc71ba;
+	color:#fff;
+}
+.green:hover{
+	background-color: #2ecc71;
+}
+.yellow{
+	background-color: #ffd400;
+}
